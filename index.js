@@ -20,9 +20,17 @@ var util = require('util');
 module.exports = ContentStream;
 
 function ContentStream(obj, options) {
+  if (!(this instanceof ContentStream)) {
+    return new ContentStream(obj, options);
+  }
   Readable.call(this, options);
+  if (obj === null || obj === undefined) {
+    obj = String(obj);
+  }
   this._obj = obj;
 }
+
+util.inherits(ContentStream, Readable);
 
 ContentStream.prototype._read = function (n) {
   var obj = this._obj;
