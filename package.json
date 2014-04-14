@@ -1,6 +1,6 @@
 {
   "name": "contentstream",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Make a readable stream by input content, content could be `String`, `Buffer`, `Object`, `Number` and so on.",
   "main": "index.js",
   "scripts": {
