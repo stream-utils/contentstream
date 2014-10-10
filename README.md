@@ -1,8 +1,8 @@
 contentstream
 =======
 
-[![Build Status](https://secure.travis-ci.org/node-modules/contentstream.png)](http://travis-ci.org/node-modules/contentstream)
-[![Dependency Status](https://gemnasium.com/node-modules/contentstream.png)](https://gemnasium.com/node-modules/contentstream)
+[![Build Status](https://secure.travis-ci.org/stream-utils/contentstream.png)](http://travis-ci.org/stream-utils/contentstream)
+[![Dependency Status](https://gemnasium.com/node-modules/contentstream.png)](https://gemnasium.com/stream-utils/contentstream)
 
 [![NPM](https://nodei.co/npm/contentstream.png?downloads=true&stars=true)](https://nodei.co/npm/contentstream/)
 

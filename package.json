@@ -23,14 +23,13 @@
     "readall": "~0.0.4",
     "should": "~3.3.0"
   },
-  "homepage": "https://github.com/node-modules/contentstream",
+  "homepage": "https://github.com/stream-utils/contentstream",
   "repository": {
     "type": "git",
-    "url": "git://github.com/node-modules/contentstream.git",
-    "web": "https://github.com/node-modules/contentstream"
+    "url": "git://github.com/stream-utils/contentstream.git"
   },
   "bugs": {
-    "url": "https://github.com/node-modules/contentstream/issues",
+    "url": "https://github.com/stream-utils/contentstream/issues",
     "email": "fengmk2@gmail.com"
   },
   "keywords": [
