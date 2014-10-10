@@ -1,10 +1,28 @@
 contentstream
 =======
 
-[![Build Status](https://secure.travis-ci.org/stream-utils/contentstream.png)](http://travis-ci.org/stream-utils/contentstream)
-[![Dependency Status](https://gemnasium.com/node-modules/contentstream.png)](https://gemnasium.com/stream-utils/contentstream)
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![Test coverage][coveralls-image]][coveralls-url]
+[![Gittip][gittip-image]][gittip-url]
+[![David deps][david-image]][david-url]
+[![node version][node-image]][node-url]
+[![npm download][download-image]][download-url]
 
-[![NPM](https://nodei.co/npm/contentstream.png?downloads=true&stars=true)](https://nodei.co/npm/contentstream/)
+[npm-image]: https://img.shields.io/npm/v/contentstream.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/contentstream
+[travis-image]: https://img.shields.io/travis/stream-utils/contentstream.svg?style=flat-square
+[travis-url]: https://travis-ci.org/stream-utils/contentstream
+[coveralls-image]: https://img.shields.io/coveralls/stream-utils/contentstream.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/stream-utils/contentstream?branch=master
+[gittip-image]: https://img.shields.io/gittip/fengmk2.svg?style=flat-square
+[gittip-url]: https://www.gittip.com/fengmk2/
+[david-image]: https://img.shields.io/david/stream-utils/contentstream.svg?style=flat-square
+[david-url]: https://david-dm.org/stream-utils/contentstream
+[node-image]: https://img.shields.io/badge/node.js-%3E=_0.8-green.svg?style=flat-square
+[node-url]: http://nodejs.org/download/
+[download-image]: https://img.shields.io/npm/dm/contentstream.svg?style=flat-square
+[download-url]: https://npmjs.org/package/contentstream
 
 Make a readable stream by input content, content could be `String`, `Buffer`, `Object`, `Number` and so on.
 

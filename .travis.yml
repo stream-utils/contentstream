@@ -5,3 +5,5 @@ node_js:
   - '0.8'
 before_install:
   - npm install npm@1 && ./node_modules/.bin/npm install
+script: "npm run test-travis"
+after_script: "npm install coveralls@2 && cat ./coverage/lcov.info | coveralls"
