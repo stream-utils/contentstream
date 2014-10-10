@@ -17,12 +17,11 @@
   "devDependencies": {
     "autod": "*",
     "contributors": "*",
-    "cov": "*",
-    "istanbul-harmony": "*",
+    "istanbul": "*",
     "jshint": "*",
     "mocha": "*",
-    "readall": "0.0.4",
-    "should": "3.3.0"
+    "readall": "~0.0.4",
+    "should": "~3.3.0"
   },
   "homepage": "https://github.com/node-modules/contentstream",
   "repository": {

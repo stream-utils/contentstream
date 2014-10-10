@@ -6,8 +6,6 @@ contentstream
 
 [![NPM](https://nodei.co/npm/contentstream.png?downloads=true&stars=true)](https://nodei.co/npm/contentstream/)
 
-![logo](https://raw.github.com/node-modules/contentstream/master/logo.png)
-
 Make a readable stream by input content, content could be `String`, `Buffer`, `Object`, `Number` and so on.
 
 ## Install

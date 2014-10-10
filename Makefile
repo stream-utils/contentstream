@@ -4,7 +4,7 @@ TIMEOUT = 1000
 MOCHA_OPTS =
 
 install:
-	@npm install --registry=http://r.cnpmjs.org --disturl=http://dist.cnpmjs.org
+	@npm install
 
 jshint: install
 	@./node_modules/.bin/jshint .
@@ -19,16 +19,15 @@ test: install
 
 test-cov cov: install
 	@NODE_ENV=test node --harmony \
-		node_modules/.bin/istanbul cover --preserve-comments \
+		node_modules/.bin/istanbul cover \
 		./node_modules/.bin/_mocha \
 		-- -u exports \
 		--reporter $(REPORTER) \
 		--timeout $(TIMEOUT) \
 		$(MOCHA_OPTS) \
 		$(TESTS)
-	@./node_modules/.bin/cov coverage
 
-test-all: install jshint test cov
+test-all: install jshint test test-cov
 
 autod: install
 	@./node_modules/.bin/autod -w
