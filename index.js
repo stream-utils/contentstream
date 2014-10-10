@@ -14,7 +14,7 @@
  * Module dependencies.
  */
 
-var Readable = require('stream').Readable;
+var Readable = require('readable-stream').Readable;
 var util = require('util');
 
 module.exports = ContentStream;
