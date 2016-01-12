@@ -22,7 +22,7 @@
     "jshint": "*",
     "mocha": "*",
     "readall": "~0.0.4",
-    "should": "~3.3.0"
+    "should": "~8.1.0"
   },
   "homepage": "https://github.com/stream-utils/contentstream",
   "repository": {
@@ -34,7 +34,12 @@
     "email": "fengmk2@gmail.com"
   },
   "keywords": [
-    "contentstream", "readable", "readstream", "stream", "stream2", "stream3"
+    "contentstream",
+    "readable",
+    "readstream",
+    "stream",
+    "stream2",
+    "stream3"
   ],
   "engines": {
     "node": ">= 0.8.0"
